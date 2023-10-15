@@ -4,7 +4,7 @@
   "description": "",
   "main": "services.js",
   "scripts": {
-    "start": "ts-node src/server.ts -p 3001",
+    "start": "ts-node src/server.ts -p 8081",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
@@ -14,9 +14,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/mongodb": "^4.0.7",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "mongodb": "^6.1.0",
     "mongoose": "^7.6.0",
     "ts-node": "^10.9.1"
   },
